@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D43B3FCF1E6F87E60010416E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3FCE1E6F87E60010416E /* AppDelegate.swift */; };
+		D43B3FD11E6F87E60010416E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3FD01E6F87E60010416E /* ViewController.swift */; };
+		D43B3FD41E6F87E60010416E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43B3FD21E6F87E60010416E /* Main.storyboard */; };
+		D43B3FD61E6F87E60010416E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43B3FD51E6F87E60010416E /* Assets.xcassets */; };
+		D43B3FD91E6F87E60010416E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43B3FD71E6F87E60010416E /* LaunchScreen.storyboard */; };
+		D43B3FE41E6F87E60010416E /* hwooshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3FE31E6F87E60010416E /* hwooshTests.swift */; };
+		D43B3FEF1E6F87E60010416E /* hwooshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3FEE1E6F87E60010416E /* hwooshUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D43B3FE01E6F87E60010416E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43B3FC31E6F87E60010416E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43B3FCA1E6F87E60010416E;
+			remoteInfo = hwoosh;
+		};
+		D43B3FEB1E6F87E60010416E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43B3FC31E6F87E60010416E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43B3FCA1E6F87E60010416E;
+			remoteInfo = hwoosh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D43B3FCB1E6F87E60010416E /* hwoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hwoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43B3FCE1E6F87E60010416E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D43B3FD01E6F87E60010416E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D43B3FD31E6F87E60010416E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D43B3FD51E6F87E60010416E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D43B3FD81E6F87E60010416E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D43B3FDA1E6F87E60010416E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43B3FDF1E6F87E60010416E /* hwooshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hwooshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43B3FE31E6F87E60010416E /* hwooshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hwooshTests.swift; sourceTree = "<group>"; };
+		D43B3FE51E6F87E60010416E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43B3FEA1E6F87E60010416E /* hwooshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hwooshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43B3FEE1E6F87E60010416E /* hwooshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hwooshUITests.swift; sourceTree = "<group>"; };
+		D43B3FF01E6F87E60010416E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D43B3FC81E6F87E60010416E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43B3FDC1E6F87E60010416E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43B3FE71E6F87E60010416E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D43B3FC21E6F87E60010416E = {
+			isa = PBXGroup;
+			children = (
+				D43B3FCD1E6F87E60010416E /* hwoosh */,
+				D43B3FE21E6F87E60010416E /* hwooshTests */,
+				D43B3FED1E6F87E60010416E /* hwooshUITests */,
+				D43B3FCC1E6F87E60010416E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D43B3FCC1E6F87E60010416E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D43B3FCB1E6F87E60010416E /* hwoosh.app */,
+				D43B3FDF1E6F87E60010416E /* hwooshTests.xctest */,
+				D43B3FEA1E6F87E60010416E /* hwooshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D43B3FCD1E6F87E60010416E /* hwoosh */ = {
+			isa = PBXGroup;
+			children = (
+				D43B3FCE1E6F87E60010416E /* AppDelegate.swift */,
+				D43B3FD01E6F87E60010416E /* ViewController.swift */,
+				D43B3FD21E6F87E60010416E /* Main.storyboard */,
+				D43B3FD51E6F87E60010416E /* Assets.xcassets */,
+				D43B3FD71E6F87E60010416E /* LaunchScreen.storyboard */,
+				D43B3FDA1E6F87E60010416E /* Info.plist */,
+			);
+			path = hwoosh;
+			sourceTree = "<group>";
+		};
+		D43B3FE21E6F87E60010416E /* hwooshTests */ = {
+			isa = PBXGroup;
+			children = (
+				D43B3FE31E6F87E60010416E /* hwooshTests.swift */,
+				D43B3FE51E6F87E60010416E /* Info.plist */,
+			);
+			path = hwooshTests;
+			sourceTree = "<group>";
+		};
+		D43B3FED1E6F87E60010416E /* hwooshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D43B3FEE1E6F87E60010416E /* hwooshUITests.swift */,
+				D43B3FF01E6F87E60010416E /* Info.plist */,
+			);
+			path = hwooshUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D43B3FCA1E6F87E60010416E /* hwoosh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43B3FF31E6F87E60010416E /* Build configuration list for PBXNativeTarget "hwoosh" */;
+			buildPhases = (
+				D43B3FC71E6F87E60010416E /* Sources */,
+				D43B3FC81E6F87E60010416E /* Frameworks */,
+				D43B3FC91E6F87E60010416E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hwoosh;
+			productName = hwoosh;
+			productReference = D43B3FCB1E6F87E60010416E /* hwoosh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D43B3FDE1E6F87E60010416E /* hwooshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43B3FF61E6F87E60010416E /* Build configuration list for PBXNativeTarget "hwooshTests" */;
+			buildPhases = (
+				D43B3FDB1E6F87E60010416E /* Sources */,
+				D43B3FDC1E6F87E60010416E /* Frameworks */,
+				D43B3FDD1E6F87E60010416E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43B3FE11E6F87E60010416E /* PBXTargetDependency */,
+			);
+			name = hwooshTests;
+			productName = hwooshTests;
+			productReference = D43B3FDF1E6F87E60010416E /* hwooshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D43B3FE91E6F87E60010416E /* hwooshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43B3FF91E6F87E60010416E /* Build configuration list for PBXNativeTarget "hwooshUITests" */;
+			buildPhases = (
+				D43B3FE61E6F87E60010416E /* Sources */,
+				D43B3FE71E6F87E60010416E /* Frameworks */,
+				D43B3FE81E6F87E60010416E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43B3FEC1E6F87E60010416E /* PBXTargetDependency */,
+			);
+			name = hwooshUITests;
+			productName = hwooshUITests;
+			productReference = D43B3FEA1E6F87E60010416E /* hwooshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D43B3FC31E6F87E60010416E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = hwoosh;
+				TargetAttributes = {
+					D43B3FCA1E6F87E60010416E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					D43B3FDE1E6F87E60010416E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D43B3FCA1E6F87E60010416E;
+					};
+					D43B3FE91E6F87E60010416E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D43B3FCA1E6F87E60010416E;
+					};
+				};
+			};
+			buildConfigurationList = D43B3FC61E6F87E60010416E /* Build configuration list for PBXProject "hwoosh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D43B3FC21E6F87E60010416E;
+			productRefGroup = D43B3FCC1E6F87E60010416E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D43B3FCA1E6F87E60010416E /* hwoosh */,
+				D43B3FDE1E6F87E60010416E /* hwooshTests */,
+				D43B3FE91E6F87E60010416E /* hwooshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D43B3FC91E6F87E60010416E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43B3FD91E6F87E60010416E /* LaunchScreen.storyboard in Resources */,
+				D43B3FD61E6F87E60010416E /* Assets.xcassets in Resources */,
+				D43B3FD41E6F87E60010416E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43B3FDD1E6F87E60010416E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43B3FE81E6F87E60010416E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D43B3FC71E6F87E60010416E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43B3FD11E6F87E60010416E /* ViewController.swift in Sources */,
+				D43B3FCF1E6F87E60010416E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43B3FDB1E6F87E60010416E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43B3FE41E6F87E60010416E /* hwooshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43B3FE61E6F87E60010416E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43B3FEF1E6F87E60010416E /* hwooshUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D43B3FE11E6F87E60010416E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43B3FCA1E6F87E60010416E /* hwoosh */;
+			targetProxy = D43B3FE01E6F87E60010416E /* PBXContainerItemProxy */;
+		};
+		D43B3FEC1E6F87E60010416E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43B3FCA1E6F87E60010416E /* hwoosh */;
+			targetProxy = D43B3FEB1E6F87E60010416E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D43B3FD21E6F87E60010416E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43B3FD31E6F87E60010416E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D43B3FD71E6F87E60010416E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43B3FD81E6F87E60010416E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D43B3FF11E6F87E60010416E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D43B3FF21E6F87E60010416E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D43B3FF41E6F87E60010416E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hwoosh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwoosh.hwoosh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D43B3FF51E6F87E60010416E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hwoosh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwoosh.hwoosh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D43B3FF71E6F87E60010416E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hwooshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwoosh.hwooshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hwoosh.app/hwoosh";
+			};
+			name = Debug;
+		};
+		D43B3FF81E6F87E60010416E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hwooshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwoosh.hwooshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hwoosh.app/hwoosh";
+			};
+			name = Release;
+		};
+		D43B3FFA1E6F87E60010416E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hwooshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwoosh.hwooshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hwoosh;
+			};
+			name = Debug;
+		};
+		D43B3FFB1E6F87E60010416E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hwooshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwoosh.hwooshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hwoosh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D43B3FC61E6F87E60010416E /* Build configuration list for PBXProject "hwoosh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43B3FF11E6F87E60010416E /* Debug */,
+				D43B3FF21E6F87E60010416E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43B3FF31E6F87E60010416E /* Build configuration list for PBXNativeTarget "hwoosh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43B3FF41E6F87E60010416E /* Debug */,
+				D43B3FF51E6F87E60010416E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D43B3FF61E6F87E60010416E /* Build configuration list for PBXNativeTarget "hwooshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43B3FF71E6F87E60010416E /* Debug */,
+				D43B3FF81E6F87E60010416E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D43B3FF91E6F87E60010416E /* Build configuration list for PBXNativeTarget "hwooshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43B3FFA1E6F87E60010416E /* Debug */,
+				D43B3FFB1E6F87E60010416E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D43B3FC31E6F87E60010416E /* Project object */;
+}
