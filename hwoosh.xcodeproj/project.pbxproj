@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22852ABF344179759172C671 /* Pods_hwooshUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9778AFDD95799CAC74BD5BEE /* Pods_hwooshUITests.framework */; };
+		94DCC8519996D8165F0D58BD /* Pods_hwoosh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8902241A92270608B43B743A /* Pods_hwoosh.framework */; };
+		AFFD9072E0950CF664001198 /* Pods_hwooshTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5499F80769B77214159584D /* Pods_hwooshTests.framework */; };
 		D43B3FCF1E6F87E60010416E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3FCE1E6F87E60010416E /* AppDelegate.swift */; };
 		D43B3FD11E6F87E60010416E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3FD01E6F87E60010416E /* ViewController.swift */; };
 		D43B3FD41E6F87E60010416E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43B3FD21E6F87E60010416E /* Main.storyboard */; };
@@ -14,6 +17,72 @@
 		D43B3FD91E6F87E60010416E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43B3FD71E6F87E60010416E /* LaunchScreen.storyboard */; };
 		D43B3FE41E6F87E60010416E /* hwooshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3FE31E6F87E60010416E /* hwooshTests.swift */; };
 		D43B3FEF1E6F87E60010416E /* hwooshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43B3FEE1E6F87E60010416E /* hwooshUITests.swift */; };
+		D43B3FFE1E6F9FE50010416E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43B3FFD1E6F9FE50010416E /* Bolts.framework */; };
+		D49183691E79DF2E0059B166 /* amusement-parks.png in Resources */ = {isa = PBXBuildFile; fileRef = D491832D1E79DF2E0059B166 /* amusement-parks.png */; };
+		D491836A1E79DF2E0059B166 /* archery.png in Resources */ = {isa = PBXBuildFile; fileRef = D491832E1E79DF2E0059B166 /* archery.png */; };
+		D491836B1E79DF2E0059B166 /* badminton.png in Resources */ = {isa = PBXBuildFile; fileRef = D491832F1E79DF2E0059B166 /* badminton.png */; };
+		D491836C1E79DF2E0059B166 /* baseball.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183301E79DF2E0059B166 /* baseball.png */; };
+		D491836D1E79DF2E0059B166 /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183311E79DF2E0059B166 /* basketball.png */; };
+		D491836E1E79DF2E0059B166 /* beach-volleyball.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183321E79DF2E0059B166 /* beach-volleyball.png */; };
+		D491836F1E79DF2E0059B166 /* beach.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183331E79DF2E0059B166 /* beach.png */; };
+		D49183701E79DF2E0059B166 /* board-games.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183341E79DF2E0059B166 /* board-games.png */; };
+		D49183711E79DF2E0059B166 /* bowling.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183351E79DF2E0059B166 /* bowling.png */; };
+		D49183721E79DF2E0059B166 /* boxing.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183361E79DF2E0059B166 /* boxing.png */; };
+		D49183731E79DF2E0059B166 /* camping.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183371E79DF2E0059B166 /* camping.png */; };
+		D49183741E79DF2E0059B166 /* canoe.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183381E79DF2E0059B166 /* canoe.png */; };
+		D49183751E79DF2E0059B166 /* carnival.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183391E79DF2E0059B166 /* carnival.png */; };
+		D49183761E79DF2E0059B166 /* castle.png in Resources */ = {isa = PBXBuildFile; fileRef = D491833A1E79DF2E0059B166 /* castle.png */; };
+		D49183771E79DF2E0059B166 /* celebration.png in Resources */ = {isa = PBXBuildFile; fileRef = D491833B1E79DF2E0059B166 /* celebration.png */; };
+		D49183781E79DF2E0059B166 /* cheer.png in Resources */ = {isa = PBXBuildFile; fileRef = D491833C1E79DF2E0059B166 /* cheer.png */; };
+		D49183791E79DF2E0059B166 /* circus.png in Resources */ = {isa = PBXBuildFile; fileRef = D491833D1E79DF2E0059B166 /* circus.png */; };
+		D491837A1E79DF2E0059B166 /* city.png in Resources */ = {isa = PBXBuildFile; fileRef = D491833E1E79DF2E0059B166 /* city.png */; };
+		D491837B1E79DF2E0059B166 /* climbing.png in Resources */ = {isa = PBXBuildFile; fileRef = D491833F1E79DF2E0059B166 /* climbing.png */; };
+		D491837C1E79DF2E0059B166 /* coffee-dates.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183401E79DF2E0059B166 /* coffee-dates.png */; };
+		D491837D1E79DF2E0059B166 /* concert.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183411E79DF2E0059B166 /* concert.png */; };
+		D491837E1E79DF2E0059B166 /* cycling.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183421E79DF2E0059B166 /* cycling.png */; };
+		D491837F1E79DF2E0059B166 /* eat.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183431E79DF2E0059B166 /* eat.png */; };
+		D49183801E79DF2E0059B166 /* equestrian.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183441E79DF2E0059B166 /* equestrian.png */; };
+		D49183811E79DF2E0059B166 /* farming.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183451E79DF2E0059B166 /* farming.png */; };
+		D49183821E79DF2E0059B166 /* fishing.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183461E79DF2E0059B166 /* fishing.png */; };
+		D49183831E79DF2E0059B166 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183471E79DF2E0059B166 /* football.png */; };
+		D49183841E79DF2E0059B166 /* hiking.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183481E79DF2E0059B166 /* hiking.png */; };
+		D49183851E79DF2E0059B166 /* hookah.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183491E79DF2E0059B166 /* hookah.png */; };
+		D49183861E79DF2E0059B166 /* lying-down.png in Resources */ = {isa = PBXBuildFile; fileRef = D491834A1E79DF2E0059B166 /* lying-down.png */; };
+		D49183871E79DF2E0059B166 /* labyrinth.png in Resources */ = {isa = PBXBuildFile; fileRef = D491834B1E79DF2E0059B166 /* labyrinth.png */; };
+		D49183881E79DF2E0059B166 /* magician.png in Resources */ = {isa = PBXBuildFile; fileRef = D491834C1E79DF2E0059B166 /* magician.png */; };
+		D49183891E79DF2E0059B166 /* massage-session.png in Resources */ = {isa = PBXBuildFile; fileRef = D491834D1E79DF2E0059B166 /* massage-session.png */; };
+		D491838A1E79DF2E0059B166 /* meditation.png in Resources */ = {isa = PBXBuildFile; fileRef = D491834E1E79DF2E0059B166 /* meditation.png */; };
+		D491838B1E79DF2E0059B166 /* orchestra.png in Resources */ = {isa = PBXBuildFile; fileRef = D491834F1E79DF2E0059B166 /* orchestra.png */; };
+		D491838C1E79DF2E0059B166 /* park.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183501E79DF2E0059B166 /* park.png */; };
+		D491838D1E79DF2E0059B166 /* ping-pong.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183511E79DF2E0059B166 /* ping-pong.png */; };
+		D491838E1E79DF2E0059B166 /* pool.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183521E79DF2E0059B166 /* pool.png */; };
+		D491838F1E79DF2E0059B166 /* puppets.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183531E79DF2E0059B166 /* puppets.png */; };
+		D49183901E79DF2E0059B166 /* reading-book.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183541E79DF2E0059B166 /* reading-book.png */; };
+		D49183911E79DF2E0059B166 /* roller-skate.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183551E79DF2E0059B166 /* roller-skate.png */; };
+		D49183921E79DF2E0059B166 /* rowing.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183561E79DF2E0059B166 /* rowing.png */; };
+		D49183931E79DF2E0059B166 /* running.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183571E79DF2E0059B166 /* running.png */; };
+		D49183941E79DF2E0059B166 /* sailboat.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183581E79DF2E0059B166 /* sailboat.png */; };
+		D49183951E79DF2E0059B166 /* skateboard.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183591E79DF2E0059B166 /* skateboard.png */; };
+		D49183961E79DF2E0059B166 /* skiing.png in Resources */ = {isa = PBXBuildFile; fileRef = D491835A1E79DF2E0059B166 /* skiing.png */; };
+		D49183971E79DF2E0059B166 /* skydiving.png in Resources */ = {isa = PBXBuildFile; fileRef = D491835B1E79DF2E0059B166 /* skydiving.png */; };
+		D49183981E79DF2E0059B166 /* soprano.png in Resources */ = {isa = PBXBuildFile; fileRef = D491835C1E79DF2E0059B166 /* soprano.png */; };
+		D49183991E79DF2E0059B166 /* spa.png in Resources */ = {isa = PBXBuildFile; fileRef = D491835D1E79DF2E0059B166 /* spa.png */; };
+		D491839A1E79DF2E0059B166 /* stadium.png in Resources */ = {isa = PBXBuildFile; fileRef = D491835E1E79DF2E0059B166 /* stadium.png */; };
+		D491839B1E79DF2E0059B166 /* stage.png in Resources */ = {isa = PBXBuildFile; fileRef = D491835F1E79DF2E0059B166 /* stage.png */; };
+		D491839C1E79DF2E0059B166 /* strategy-games.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183601E79DF2E0059B166 /* strategy-games.png */; };
+		D491839D1E79DF2E0059B166 /* swimming.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183611E79DF2E0059B166 /* swimming.png */; };
+		D491839E1E79DF2E0059B166 /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183621E79DF2E0059B166 /* target.png */; };
+		D491839F1E79DF2E0059B166 /* theater.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183631E79DF2E0059B166 /* theater.png */; };
+		D49183A01E79DF2E0059B166 /* versus-game.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183641E79DF2E0059B166 /* versus-game.png */; };
+		D49183A11E79DF2E0059B166 /* video-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183651E79DF2E0059B166 /* video-camera.png */; };
+		D49183A21E79DF2E0059B166 /* watch-tv.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183661E79DF2E0059B166 /* watch-tv.png */; };
+		D49183A31E79DF2E0059B166 /* weightlifting.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183671E79DF2E0059B166 /* weightlifting.png */; };
+		D49183A41E79DF2E0059B166 /* yoga.png in Resources */ = {isa = PBXBuildFile; fileRef = D49183681E79DF2E0059B166 /* yoga.png */; };
+		D4B0974A1E6FAA5F004D8158 /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B097471E6FAA5F004D8158 /* FacebookCore.framework */; };
+		D4B0974C1E6FAA5F004D8158 /* FacebookShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B097491E6FAA5F004D8158 /* FacebookShare.framework */; };
+		D4B097561E710178004D8158 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4B097551E710178004D8158 /* GoogleService-Info.plist */; };
+		D4B097591E71467F004D8158 /* ListOfActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B097581E71467F004D8158 /* ListOfActivities.swift */; };
+		D4B097601E760535004D8158 /* ActivityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0975F1E760535004D8158 /* ActivityCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +103,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		492E26829C5AEC9B9237FD86 /* Pods-hwoosh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hwoosh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hwoosh/Pods-hwoosh.debug.xcconfig"; sourceTree = "<group>"; };
+		706EC9F5F3560571EAB59732 /* Pods-hwooshUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hwooshUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hwooshUITests/Pods-hwooshUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FD75266F437A0C5C9CE7B56 /* Pods-hwooshTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hwooshTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hwooshTests/Pods-hwooshTests.release.xcconfig"; sourceTree = "<group>"; };
+		8534640EEE8CF2FA91C0522F /* Pods-hwooshUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hwooshUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hwooshUITests/Pods-hwooshUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8902241A92270608B43B743A /* Pods_hwoosh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hwoosh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9778AFDD95799CAC74BD5BEE /* Pods_hwooshUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hwooshUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AB611FA4BD89CED7BFEFE7 /* Pods-hwoosh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hwoosh.release.xcconfig"; path = "Pods/Target Support Files/Pods-hwoosh/Pods-hwoosh.release.xcconfig"; sourceTree = "<group>"; };
 		D43B3FCB1E6F87E60010416E /* hwoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hwoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43B3FCE1E6F87E60010416E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D43B3FD01E6F87E60010416E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +123,75 @@
 		D43B3FEA1E6F87E60010416E /* hwooshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hwooshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43B3FEE1E6F87E60010416E /* hwooshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hwooshUITests.swift; sourceTree = "<group>"; };
 		D43B3FF01E6F87E60010416E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43B3FFD1E6F9FE50010416E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		D491832D1E79DF2E0059B166 /* amusement-parks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "amusement-parks.png"; sourceTree = "<group>"; };
+		D491832E1E79DF2E0059B166 /* archery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = archery.png; sourceTree = "<group>"; };
+		D491832F1E79DF2E0059B166 /* badminton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badminton.png; sourceTree = "<group>"; };
+		D49183301E79DF2E0059B166 /* baseball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball.png; sourceTree = "<group>"; };
+		D49183311E79DF2E0059B166 /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball.png; sourceTree = "<group>"; };
+		D49183321E79DF2E0059B166 /* beach-volleyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beach-volleyball.png"; sourceTree = "<group>"; };
+		D49183331E79DF2E0059B166 /* beach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beach.png; sourceTree = "<group>"; };
+		D49183341E79DF2E0059B166 /* board-games.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "board-games.png"; sourceTree = "<group>"; };
+		D49183351E79DF2E0059B166 /* bowling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowling.png; sourceTree = "<group>"; };
+		D49183361E79DF2E0059B166 /* boxing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxing.png; sourceTree = "<group>"; };
+		D49183371E79DF2E0059B166 /* camping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camping.png; sourceTree = "<group>"; };
+		D49183381E79DF2E0059B166 /* canoe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canoe.png; sourceTree = "<group>"; };
+		D49183391E79DF2E0059B166 /* carnival.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carnival.png; sourceTree = "<group>"; };
+		D491833A1E79DF2E0059B166 /* castle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = castle.png; sourceTree = "<group>"; };
+		D491833B1E79DF2E0059B166 /* celebration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celebration.png; sourceTree = "<group>"; };
+		D491833C1E79DF2E0059B166 /* cheer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheer.png; sourceTree = "<group>"; };
+		D491833D1E79DF2E0059B166 /* circus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circus.png; sourceTree = "<group>"; };
+		D491833E1E79DF2E0059B166 /* city.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city.png; sourceTree = "<group>"; };
+		D491833F1E79DF2E0059B166 /* climbing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = climbing.png; sourceTree = "<group>"; };
+		D49183401E79DF2E0059B166 /* coffee-dates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffee-dates.png"; sourceTree = "<group>"; };
+		D49183411E79DF2E0059B166 /* concert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concert.png; sourceTree = "<group>"; };
+		D49183421E79DF2E0059B166 /* cycling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cycling.png; sourceTree = "<group>"; };
+		D49183431E79DF2E0059B166 /* eat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eat.png; sourceTree = "<group>"; };
+		D49183441E79DF2E0059B166 /* equestrian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equestrian.png; sourceTree = "<group>"; };
+		D49183451E79DF2E0059B166 /* farming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = farming.png; sourceTree = "<group>"; };
+		D49183461E79DF2E0059B166 /* fishing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fishing.png; sourceTree = "<group>"; };
+		D49183471E79DF2E0059B166 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
+		D49183481E79DF2E0059B166 /* hiking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiking.png; sourceTree = "<group>"; };
+		D49183491E79DF2E0059B166 /* hookah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hookah.png; sourceTree = "<group>"; };
+		D491834A1E79DF2E0059B166 /* lying-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lying-down.png"; sourceTree = "<group>"; };
+		D491834B1E79DF2E0059B166 /* labyrinth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = labyrinth.png; sourceTree = "<group>"; };
+		D491834C1E79DF2E0059B166 /* magician.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magician.png; sourceTree = "<group>"; };
+		D491834D1E79DF2E0059B166 /* massage-session.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "massage-session.png"; sourceTree = "<group>"; };
+		D491834E1E79DF2E0059B166 /* meditation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meditation.png; sourceTree = "<group>"; };
+		D491834F1E79DF2E0059B166 /* orchestra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orchestra.png; sourceTree = "<group>"; };
+		D49183501E79DF2E0059B166 /* park.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = park.png; sourceTree = "<group>"; };
+		D49183511E79DF2E0059B166 /* ping-pong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ping-pong.png"; sourceTree = "<group>"; };
+		D49183521E79DF2E0059B166 /* pool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pool.png; sourceTree = "<group>"; };
+		D49183531E79DF2E0059B166 /* puppets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puppets.png; sourceTree = "<group>"; };
+		D49183541E79DF2E0059B166 /* reading-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reading-book.png"; sourceTree = "<group>"; };
+		D49183551E79DF2E0059B166 /* roller-skate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "roller-skate.png"; sourceTree = "<group>"; };
+		D49183561E79DF2E0059B166 /* rowing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rowing.png; sourceTree = "<group>"; };
+		D49183571E79DF2E0059B166 /* running.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = running.png; sourceTree = "<group>"; };
+		D49183581E79DF2E0059B166 /* sailboat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sailboat.png; sourceTree = "<group>"; };
+		D49183591E79DF2E0059B166 /* skateboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skateboard.png; sourceTree = "<group>"; };
+		D491835A1E79DF2E0059B166 /* skiing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skiing.png; sourceTree = "<group>"; };
+		D491835B1E79DF2E0059B166 /* skydiving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skydiving.png; sourceTree = "<group>"; };
+		D491835C1E79DF2E0059B166 /* soprano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soprano.png; sourceTree = "<group>"; };
+		D491835D1E79DF2E0059B166 /* spa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spa.png; sourceTree = "<group>"; };
+		D491835E1E79DF2E0059B166 /* stadium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stadium.png; sourceTree = "<group>"; };
+		D491835F1E79DF2E0059B166 /* stage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage.png; sourceTree = "<group>"; };
+		D49183601E79DF2E0059B166 /* strategy-games.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strategy-games.png"; sourceTree = "<group>"; };
+		D49183611E79DF2E0059B166 /* swimming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swimming.png; sourceTree = "<group>"; };
+		D49183621E79DF2E0059B166 /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
+		D49183631E79DF2E0059B166 /* theater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theater.png; sourceTree = "<group>"; };
+		D49183641E79DF2E0059B166 /* versus-game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "versus-game.png"; sourceTree = "<group>"; };
+		D49183651E79DF2E0059B166 /* video-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video-camera.png"; sourceTree = "<group>"; };
+		D49183661E79DF2E0059B166 /* watch-tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "watch-tv.png"; sourceTree = "<group>"; };
+		D49183671E79DF2E0059B166 /* weightlifting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weightlifting.png; sourceTree = "<group>"; };
+		D49183681E79DF2E0059B166 /* yoga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yoga.png; sourceTree = "<group>"; };
+		D4B097471E6FAA5F004D8158 /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = "../../Library/Developer/Xcode/DerivedData/hwoosh-ffotzereemwxkteqvpxupbozgbjy/Build/Products/Debug-iphonesimulator/FacebookCore/FacebookCore.framework"; sourceTree = "<group>"; };
+		D4B097491E6FAA5F004D8158 /* FacebookShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookShare.framework; path = "../../Library/Developer/Xcode/DerivedData/hwoosh-ffotzereemwxkteqvpxupbozgbjy/Build/Products/Debug-iphonesimulator/FacebookShare/FacebookShare.framework"; sourceTree = "<group>"; };
+		D4B097551E710178004D8158 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D4B097581E71467F004D8158 /* ListOfActivities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfActivities.swift; sourceTree = "<group>"; };
+		D4B0975E1E75F175004D8158 /* hwoosh.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hwoosh.entitlements; sourceTree = "<group>"; };
+		D4B0975F1E760535004D8158 /* ActivityCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCollectionViewCell.swift; sourceTree = "<group>"; };
+		D5499F80769B77214159584D /* Pods_hwooshTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hwooshTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FFA1FB45796228F92F11A7 /* Pods-hwooshTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hwooshTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hwooshTests/Pods-hwooshTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +199,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B0974A1E6FAA5F004D8158 /* FacebookCore.framework in Frameworks */,
+				D4B0974C1E6FAA5F004D8158 /* FacebookShare.framework in Frameworks */,
+				D43B3FFE1E6F9FE50010416E /* Bolts.framework in Frameworks */,
+				94DCC8519996D8165F0D58BD /* Pods_hwoosh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +210,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFFD9072E0950CF664001198 /* Pods_hwooshTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +218,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22852ABF344179759172C671 /* Pods_hwooshUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B878B7E49EB02CEB84A55B5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				492E26829C5AEC9B9237FD86 /* Pods-hwoosh.debug.xcconfig */,
+				A5AB611FA4BD89CED7BFEFE7 /* Pods-hwoosh.release.xcconfig */,
+				E4FFA1FB45796228F92F11A7 /* Pods-hwooshTests.debug.xcconfig */,
+				7FD75266F437A0C5C9CE7B56 /* Pods-hwooshTests.release.xcconfig */,
+				706EC9F5F3560571EAB59732 /* Pods-hwooshUITests.debug.xcconfig */,
+				8534640EEE8CF2FA91C0522F /* Pods-hwooshUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D43B3FC21E6F87E60010416E = {
 			isa = PBXGroup;
 			children = (
 				D43B3FCD1E6F87E60010416E /* hwoosh */,
+				D491832C1E79DF220059B166 /* ActivitiesImages */,
 				D43B3FE21E6F87E60010416E /* hwooshTests */,
 				D43B3FED1E6F87E60010416E /* hwooshUITests */,
 				D43B3FCC1E6F87E60010416E /* Products */,
+				D43B3FFC1E6F9FE50010416E /* Frameworks */,
+				B878B7E49EB02CEB84A55B5E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +264,14 @@
 		D43B3FCD1E6F87E60010416E /* hwoosh */ = {
 			isa = PBXGroup;
 			children = (
-				D43B3FCE1E6F87E60010416E /* AppDelegate.swift */,
+				D4B0975E1E75F175004D8158 /* hwoosh.entitlements */,
+				D4B097571E714567004D8158 /* RegistrationViewControllers */,
 				D43B3FD01E6F87E60010416E /* ViewController.swift */,
+				D43B3FCE1E6F87E60010416E /* AppDelegate.swift */,
 				D43B3FD21E6F87E60010416E /* Main.storyboard */,
 				D43B3FD51E6F87E60010416E /* Assets.xcassets */,
 				D43B3FD71E6F87E60010416E /* LaunchScreen.storyboard */,
+				D4B097551E710178004D8158 /* GoogleService-Info.plist */,
 				D43B3FDA1E6F87E60010416E /* Info.plist */,
 			);
 			path = hwoosh;
@@ -125,6 +295,96 @@
 			path = hwooshUITests;
 			sourceTree = "<group>";
 		};
+		D43B3FFC1E6F9FE50010416E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4B097471E6FAA5F004D8158 /* FacebookCore.framework */,
+				D4B097491E6FAA5F004D8158 /* FacebookShare.framework */,
+				D43B3FFD1E6F9FE50010416E /* Bolts.framework */,
+				8902241A92270608B43B743A /* Pods_hwoosh.framework */,
+				D5499F80769B77214159584D /* Pods_hwooshTests.framework */,
+				9778AFDD95799CAC74BD5BEE /* Pods_hwooshUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D491832C1E79DF220059B166 /* ActivitiesImages */ = {
+			isa = PBXGroup;
+			children = (
+				D491832D1E79DF2E0059B166 /* amusement-parks.png */,
+				D491832E1E79DF2E0059B166 /* archery.png */,
+				D491832F1E79DF2E0059B166 /* badminton.png */,
+				D49183301E79DF2E0059B166 /* baseball.png */,
+				D49183311E79DF2E0059B166 /* basketball.png */,
+				D49183321E79DF2E0059B166 /* beach-volleyball.png */,
+				D49183331E79DF2E0059B166 /* beach.png */,
+				D49183341E79DF2E0059B166 /* board-games.png */,
+				D49183351E79DF2E0059B166 /* bowling.png */,
+				D49183361E79DF2E0059B166 /* boxing.png */,
+				D49183371E79DF2E0059B166 /* camping.png */,
+				D49183381E79DF2E0059B166 /* canoe.png */,
+				D49183391E79DF2E0059B166 /* carnival.png */,
+				D491833A1E79DF2E0059B166 /* castle.png */,
+				D491833B1E79DF2E0059B166 /* celebration.png */,
+				D491833C1E79DF2E0059B166 /* cheer.png */,
+				D491833D1E79DF2E0059B166 /* circus.png */,
+				D491833E1E79DF2E0059B166 /* city.png */,
+				D491833F1E79DF2E0059B166 /* climbing.png */,
+				D49183401E79DF2E0059B166 /* coffee-dates.png */,
+				D49183411E79DF2E0059B166 /* concert.png */,
+				D49183421E79DF2E0059B166 /* cycling.png */,
+				D49183431E79DF2E0059B166 /* eat.png */,
+				D49183441E79DF2E0059B166 /* equestrian.png */,
+				D49183451E79DF2E0059B166 /* farming.png */,
+				D49183461E79DF2E0059B166 /* fishing.png */,
+				D49183471E79DF2E0059B166 /* football.png */,
+				D49183481E79DF2E0059B166 /* hiking.png */,
+				D49183491E79DF2E0059B166 /* hookah.png */,
+				D491834A1E79DF2E0059B166 /* lying-down.png */,
+				D491834B1E79DF2E0059B166 /* labyrinth.png */,
+				D491834C1E79DF2E0059B166 /* magician.png */,
+				D491834D1E79DF2E0059B166 /* massage-session.png */,
+				D491834E1E79DF2E0059B166 /* meditation.png */,
+				D491834F1E79DF2E0059B166 /* orchestra.png */,
+				D49183501E79DF2E0059B166 /* park.png */,
+				D49183511E79DF2E0059B166 /* ping-pong.png */,
+				D49183521E79DF2E0059B166 /* pool.png */,
+				D49183531E79DF2E0059B166 /* puppets.png */,
+				D49183541E79DF2E0059B166 /* reading-book.png */,
+				D49183551E79DF2E0059B166 /* roller-skate.png */,
+				D49183561E79DF2E0059B166 /* rowing.png */,
+				D49183571E79DF2E0059B166 /* running.png */,
+				D49183581E79DF2E0059B166 /* sailboat.png */,
+				D49183591E79DF2E0059B166 /* skateboard.png */,
+				D491835A1E79DF2E0059B166 /* skiing.png */,
+				D491835B1E79DF2E0059B166 /* skydiving.png */,
+				D491835C1E79DF2E0059B166 /* soprano.png */,
+				D491835D1E79DF2E0059B166 /* spa.png */,
+				D491835E1E79DF2E0059B166 /* stadium.png */,
+				D491835F1E79DF2E0059B166 /* stage.png */,
+				D49183601E79DF2E0059B166 /* strategy-games.png */,
+				D49183611E79DF2E0059B166 /* swimming.png */,
+				D49183621E79DF2E0059B166 /* target.png */,
+				D49183631E79DF2E0059B166 /* theater.png */,
+				D49183641E79DF2E0059B166 /* versus-game.png */,
+				D49183651E79DF2E0059B166 /* video-camera.png */,
+				D49183661E79DF2E0059B166 /* watch-tv.png */,
+				D49183671E79DF2E0059B166 /* weightlifting.png */,
+				D49183681E79DF2E0059B166 /* yoga.png */,
+			);
+			name = ActivitiesImages;
+			path = hwoosh;
+			sourceTree = "<group>";
+		};
+		D4B097571E714567004D8158 /* RegistrationViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4B097581E71467F004D8158 /* ListOfActivities.swift */,
+				D4B0975F1E760535004D8158 /* ActivityCollectionViewCell.swift */,
+			);
+			name = RegistrationViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +392,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D43B3FF31E6F87E60010416E /* Build configuration list for PBXNativeTarget "hwoosh" */;
 			buildPhases = (
+				91F18907781FE25930A8F282 /* [CP] Check Pods Manifest.lock */,
 				D43B3FC71E6F87E60010416E /* Sources */,
 				D43B3FC81E6F87E60010416E /* Frameworks */,
 				D43B3FC91E6F87E60010416E /* Resources */,
+				D8FC063CC7E3918F8BD8332A /* [CP] Embed Pods Frameworks */,
+				2E468176829D45E297F605F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +412,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D43B3FF61E6F87E60010416E /* Build configuration list for PBXNativeTarget "hwooshTests" */;
 			buildPhases = (
+				D892ADC3404A0C249F9E073E /* [CP] Check Pods Manifest.lock */,
 				D43B3FDB1E6F87E60010416E /* Sources */,
 				D43B3FDC1E6F87E60010416E /* Frameworks */,
 				D43B3FDD1E6F87E60010416E /* Resources */,
+				B0ADE1BDB9AAEC40B30E11D9 /* [CP] Embed Pods Frameworks */,
+				C4FC9C1875D85E78EA709855 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +433,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D43B3FF91E6F87E60010416E /* Build configuration list for PBXNativeTarget "hwooshUITests" */;
 			buildPhases = (
+				BD7B65E4A39912EBC2ED3D44 /* [CP] Check Pods Manifest.lock */,
 				D43B3FE61E6F87E60010416E /* Sources */,
 				D43B3FE71E6F87E60010416E /* Frameworks */,
 				D43B3FE81E6F87E60010416E /* Resources */,
+				BAFB67D55F0E2BD8AAB68367 /* [CP] Embed Pods Frameworks */,
+				D66D8B5C749014E3FC0EF960 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +462,13 @@
 				TargetAttributes = {
 					D43B3FCA1E6F87E60010416E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = K69H22J4M2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					D43B3FDE1E6F87E60010416E = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -232,9 +507,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49183881E79DF2E0059B166 /* magician.png in Resources */,
+				D491838C1E79DF2E0059B166 /* park.png in Resources */,
+				D49183811E79DF2E0059B166 /* farming.png in Resources */,
+				D491838D1E79DF2E0059B166 /* ping-pong.png in Resources */,
+				D491837B1E79DF2E0059B166 /* climbing.png in Resources */,
+				D491837C1E79DF2E0059B166 /* coffee-dates.png in Resources */,
+				D491837A1E79DF2E0059B166 /* city.png in Resources */,
+				D491839B1E79DF2E0059B166 /* stage.png in Resources */,
+				D49183921E79DF2E0059B166 /* rowing.png in Resources */,
+				D491838F1E79DF2E0059B166 /* puppets.png in Resources */,
+				D49183821E79DF2E0059B166 /* fishing.png in Resources */,
 				D43B3FD91E6F87E60010416E /* LaunchScreen.storyboard in Resources */,
+				D49183A31E79DF2E0059B166 /* weightlifting.png in Resources */,
+				D49183791E79DF2E0059B166 /* circus.png in Resources */,
+				D49183A21E79DF2E0059B166 /* watch-tv.png in Resources */,
+				D491836D1E79DF2E0059B166 /* basketball.png in Resources */,
+				D49183971E79DF2E0059B166 /* skydiving.png in Resources */,
+				D491837F1E79DF2E0059B166 /* eat.png in Resources */,
+				D49183941E79DF2E0059B166 /* sailboat.png in Resources */,
+				D49183751E79DF2E0059B166 /* carnival.png in Resources */,
+				D491839E1E79DF2E0059B166 /* target.png in Resources */,
+				D49183A11E79DF2E0059B166 /* video-camera.png in Resources */,
+				D491837D1E79DF2E0059B166 /* concert.png in Resources */,
+				D49183771E79DF2E0059B166 /* celebration.png in Resources */,
+				D491838A1E79DF2E0059B166 /* meditation.png in Resources */,
+				D49183741E79DF2E0059B166 /* canoe.png in Resources */,
+				D49183951E79DF2E0059B166 /* skateboard.png in Resources */,
+				D491838E1E79DF2E0059B166 /* pool.png in Resources */,
+				D4B097561E710178004D8158 /* GoogleService-Info.plist in Resources */,
+				D49183731E79DF2E0059B166 /* camping.png in Resources */,
+				D49183871E79DF2E0059B166 /* labyrinth.png in Resources */,
+				D49183891E79DF2E0059B166 /* massage-session.png in Resources */,
+				D49183781E79DF2E0059B166 /* cheer.png in Resources */,
+				D491836E1E79DF2E0059B166 /* beach-volleyball.png in Resources */,
+				D491839D1E79DF2E0059B166 /* swimming.png in Resources */,
+				D49183911E79DF2E0059B166 /* roller-skate.png in Resources */,
+				D49183701E79DF2E0059B166 /* board-games.png in Resources */,
+				D49183851E79DF2E0059B166 /* hookah.png in Resources */,
+				D491836A1E79DF2E0059B166 /* archery.png in Resources */,
+				D49183831E79DF2E0059B166 /* football.png in Resources */,
+				D49183901E79DF2E0059B166 /* reading-book.png in Resources */,
 				D43B3FD61E6F87E60010416E /* Assets.xcassets in Resources */,
+				D491836F1E79DF2E0059B166 /* beach.png in Resources */,
+				D49183A41E79DF2E0059B166 /* yoga.png in Resources */,
+				D49183761E79DF2E0059B166 /* castle.png in Resources */,
+				D49183841E79DF2E0059B166 /* hiking.png in Resources */,
+				D49183931E79DF2E0059B166 /* running.png in Resources */,
+				D49183981E79DF2E0059B166 /* soprano.png in Resources */,
+				D491839C1E79DF2E0059B166 /* strategy-games.png in Resources */,
+				D491838B1E79DF2E0059B166 /* orchestra.png in Resources */,
+				D49183721E79DF2E0059B166 /* boxing.png in Resources */,
+				D491839A1E79DF2E0059B166 /* stadium.png in Resources */,
+				D49183861E79DF2E0059B166 /* lying-down.png in Resources */,
+				D49183991E79DF2E0059B166 /* spa.png in Resources */,
+				D491839F1E79DF2E0059B166 /* theater.png in Resources */,
+				D491836B1E79DF2E0059B166 /* badminton.png in Resources */,
+				D49183801E79DF2E0059B166 /* equestrian.png in Resources */,
+				D491836C1E79DF2E0059B166 /* baseball.png in Resources */,
+				D49183691E79DF2E0059B166 /* amusement-parks.png in Resources */,
+				D49183961E79DF2E0059B166 /* skiing.png in Resources */,
+				D491837E1E79DF2E0059B166 /* cycling.png in Resources */,
+				D49183A01E79DF2E0059B166 /* versus-game.png in Resources */,
 				D43B3FD41E6F87E60010416E /* Main.storyboard in Resources */,
+				D49183711E79DF2E0059B166 /* bowling.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +590,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E468176829D45E297F605F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hwoosh/Pods-hwoosh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91F18907781FE25930A8F282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0ADE1BDB9AAEC40B30E11D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hwooshTests/Pods-hwooshTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAFB67D55F0E2BD8AAB68367 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hwooshUITests/Pods-hwooshUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD7B65E4A39912EBC2ED3D44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4FC9C1875D85E78EA709855 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hwooshTests/Pods-hwooshTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D66D8B5C749014E3FC0EF960 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hwooshUITests/Pods-hwooshUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D892ADC3404A0C249F9E073E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8FC063CC7E3918F8BD8332A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hwoosh/Pods-hwoosh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D43B3FC71E6F87E60010416E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +735,8 @@
 			files = (
 				D43B3FD11E6F87E60010416E /* ViewController.swift in Sources */,
 				D43B3FCF1E6F87E60010416E /* AppDelegate.swift in Sources */,
+				D4B097601E760535004D8158 /* ActivityCollectionViewCell.swift in Sources */,
+				D4B097591E71467F004D8158 /* ListOfActivities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,10 +884,13 @@
 		};
 		D43B3FF41E6F87E60010416E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492E26829C5AEC9B9237FD86 /* Pods-hwoosh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = hwoosh/hwoosh.entitlements;
+				DEVELOPMENT_TEAM = K69H22J4M2;
 				INFOPLIST_FILE = hwoosh/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks ~/Documents/FacebookSDK";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hwoosh.hwoosh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -420,10 +899,13 @@
 		};
 		D43B3FF51E6F87E60010416E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AB611FA4BD89CED7BFEFE7 /* Pods-hwoosh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = hwoosh/hwoosh.entitlements;
+				DEVELOPMENT_TEAM = K69H22J4M2;
 				INFOPLIST_FILE = hwoosh/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks ~/Documents/FacebookSDK";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hwoosh.hwoosh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -432,6 +914,7 @@
 		};
 		D43B3FF71E6F87E60010416E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FFA1FB45796228F92F11A7 /* Pods-hwooshTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +929,7 @@
 		};
 		D43B3FF81E6F87E60010416E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD75266F437A0C5C9CE7B56 /* Pods-hwooshTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +944,7 @@
 		};
 		D43B3FFA1E6F87E60010416E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706EC9F5F3560571EAB59732 /* Pods-hwooshUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = hwooshUITests/Info.plist;
@@ -473,6 +958,7 @@
 		};
 		D43B3FFB1E6F87E60010416E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8534640EEE8CF2FA91C0522F /* Pods-hwooshUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = hwooshUITests/Info.plist;
@@ -503,6 +989,7 @@
 				D43B3FF51E6F87E60010416E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D43B3FF61E6F87E60010416E /* Build configuration list for PBXNativeTarget "hwooshTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +998,7 @@
 				D43B3FF81E6F87E60010416E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D43B3FF91E6F87E60010416E /* Build configuration list for PBXNativeTarget "hwooshUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +1007,7 @@
 				D43B3FFB1E6F87E60010416E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
